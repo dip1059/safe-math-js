@@ -1,0 +1,34 @@
+{
+  "name": "@dip1059/safe-math-js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "Safer floating-point math operations in JavaScript that return results we expect, so that 0.1 + 0.2 adds up to 0.3, e.g. Customized and fixed from package '@dfkaye/safe-math'",
+  "main": "safe-math.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha test/node-suite.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dip1059/safe-math-js.git"
+  },
+  "keywords": [
+    "floating-point",
+    "safe-math",
+    "safe-floating-point-math"
+  ],
+  "author": "Dipankar Saha <dipankarsaha1059@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Dip1059/safe-math-js/issues"
+  },
+  "homepage": "https://github.com/Dip1059/safe-math-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
